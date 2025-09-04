@@ -29,9 +29,11 @@ for(let i =0; i<price.length; i++){
   finalRow.id = "finalRow"
   //create dt
   let tdItem = document.createElement("td")
+	tdItem.className = "item"
    tdItem.innerText = "Total";
 
   let tdTotal = document.createElement("td");
+	tdTotal.className = "prices"
    tdTotal.innerText = total;
 
   finalRow.appendChild(tdItem);
