@@ -39,7 +39,7 @@ for(let i =0; i<price.length; i++){
   finalRow.appendChild(tdItem);
   finalRow.appendChild(tdTotal);
   
-  document.getElementById("myTable").appendChild(finalRow);
+  document.querySelector("table").appendChild(finalRow);
 };
 
 getSumBtn.addEventListener("click", getSum);
